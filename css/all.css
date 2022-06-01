@@ -512,16 +512,17 @@ transition: all 0.5s ease-in-out;
 }
 .box_contact span{
 	color: #fff;
-	font-family: 'novecento_sans_widebook';
+	/* font-family: 'novecento_sans_widebook'; */
 	font-size: 30px;
 	line-height: 32px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	display: block;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
 }
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
+.box_contact span.linkedin{background: url(../images/icon_linkedin.png) no-repeat;}
 .box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
 /*footer
  */
@@ -567,7 +568,7 @@ transition: all 0.5s ease-in-out;
 	position: relative;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
-.footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
+.footer-content .social li.linkedin a{background: url(../images/icon_linkedin.png) no-repeat 50% 50%;}
 .footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
 .footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
 .footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;}
@@ -653,8 +654,8 @@ transition: all 0.5s ease-in-out;
 		background-image: url(../images/icon_email@x2.png);
 		background-size:51px 38px;
 	}
-	.footer-content .social li.facebook a{
-		background-image: url(../images/icon_fb@x2.png);
+	.footer-content .social li.linkedin a{
+		background-image: url(../images/icon_linkedin.png);
 		background-size:20px 38px;
 	}
 	.footer-content .social li.google a{
