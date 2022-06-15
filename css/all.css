@@ -135,7 +135,7 @@ a:hover{text-decoration:underline;}
 .wrapper-holder {
 	width:100%;
     display:table-row;
-    background: #50af6f;
+    background: #50af6f;                   /* Header Background Color*/
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -415,7 +415,7 @@ transition: all 0.5s ease-in-out;
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
-.sub_nav li:hover,.sub_nav .active {
+.sub_nav li:hover,.sub_nav .active {            /* Portfolio heading hover */
 	color: #50af6f;
 	border-bottom: 4px solid #50af6f;
 	text-decoration: none;
@@ -557,7 +557,7 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li:first-child{margin: 0;}
 .footer-content .social li:hover{
-	background: #50af6f;
+	background: #F5B041 ;                                 /* Fotter Objects BG color*/
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
